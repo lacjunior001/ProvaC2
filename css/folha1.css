@@ -1,0 +1,64 @@
+div.principal{
+    width: 97%;
+    height: 97%;
+
+    margin: auto;
+
+    padding: 10px;
+
+    position: absolute;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.4vw;
+    background-color: rgba(80, 73, 73, 0.472);
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4vw;
+    background-color: rgba(80, 73, 73, 0.472);
+}
+
+
+.leitura{
+    background-color: rgba(255, 255, 255, 0.472);
+    font-size: 2vw;
+}
+
+div.opt{
+    max-width: 600px;
+    width: 32vw;
+    max-height: 200px;
+    height: 21vh;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-color: black;
+    border-style: double;
+    border-radius: 2.3vw;
+
+    font-size: 8vw;
+
+    background-color: rgba(100, 102, 235, 0.472)
+}
+
+
+div.opt:hover{
+    background-color: rgba(80, 73, 73, 0.472);
+
+}
+
+a:any-link{
+    text-decoration: none;
+    color: black;
+}
